@@ -1,0 +1,36 @@
+.AskQuestions{
+    display: flex;
+    padding: 100px 100px;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #62c9b3, #66bece);
+}
+
+.AskQuestions__left{
+    max-width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.AskQuestions__img{
+    max-width: 300px;
+    object-fit: contain;
+}
+
+.AskQuestions__right{
+    max-width: 50%;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+.AskQuestions__RightText1{
+    font-size: 40px;
+    margin-bottom: 1.4rem;
+}
+
+.AskQuestions__RightText2{
+    &>div{
+        display: flex;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+}
