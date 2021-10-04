@@ -6,10 +6,23 @@
 	height: 100vh;
 }
 
+.particle {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	z-index: -3;
+	background-image: -webkit-linear-gradient(135deg, #3dac87 20%, #337bee);
+	background-image: linear-gradient(135deg, #3dac87 20%, #337bee);
+}
+
+#tsparticles {
+	height: 100vh;
+}
+
 .comingSoon__text1 {
 	color: #fff;
 	font-size: 36px;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 
 .comingSoon__text2 {
@@ -25,27 +38,35 @@
 	text-transform: capitalize;
 }
 
+.comingSoon__text4 {
+	color: #fff;
+	font-size: 14px;
+	text-transform: none;
+}
+
 .comingSoon__img {
 	width: 200px;
-    object-fit: contain;
+	object-fit: contain;
 }
 
 .comingSoon__img2 {
-    margin-right: 15px;
+	margin-right: 15px;
+	object-fit: contain;
 }
 
 .comingSoon__footer {
 	display: flex;
 	align-items: center;
+	margin-bottom: 30px;
 }
 
-.particle {
-	width: 100%;
-	height: 100vh;
-	position: absolute;
-	z-index: -3;
-	background-image: -webkit-linear-gradient(135deg, #3dac87 20%, #337bee);
-	background-image: linear-gradient(135deg, #3dac87 20%, #337bee);
-	// opacity: 0;
-	// animation: particleFadeIn 4s ease-in 4s 1 normal forwards;
+@media only screen and (max-width: 768px) {
+	.comingSoon__text2 {
+		font-size: 48px;
+		margin-bottom: 150px;
+	}
+
+	.comingSoon__footer {
+		margin-bottom: 10px;
+	}
 }

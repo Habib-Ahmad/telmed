@@ -1,22 +1,24 @@
 import React from 'react'
-import ComingSoon from './components/ComingSoon'
 import Header from './components/Header'
 import About from './components/About'
-// import NavBar from './components/NavBar'
-// import AskQuestions from './components/AskQuestions'
-// import VirtualCalls from './components/VirtualCalls'
-// import SymptomChecker from './components/SymptomChecker'
+import Vitals from './components/Vitals'
+import Medications from './components/Medications'
+import MoreServices from './components/MoreServices'
+import Services from './components/Services'
+import Diagnosis from './components/Diagnosis'
+import Footer from './components/Footer'
 
 function App() {
 	return (
 		<div className='app'>
-			<ComingSoon />
-			{/* <Header />
-			<About /> */}
-			{/* <NavBar /> */}
-			{/* <AskQuestions />
-			<VirtualCalls />
-			<SymptomChecker /> */}
+			<Header />
+			<About />
+			<Vitals />
+			<Medications />
+			<MoreServices />
+			<Services />
+			<Diagnosis />
+			{/* <Footer /> */}
 		</div>
 	)
 }

@@ -1,0 +1,64 @@
+// Mobile Styles
+.moreServices {
+	padding: 10px 5vw;
+}
+
+.moreServices__item {
+	margin-bottom: 40px;
+}
+
+.moreServices__itemLogo {
+	color: #3893bb;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.moreServices__itemText1 {
+	font-weight: 600;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+.moreServices__itemText2 {
+	font-size: 16px;
+	color: #6b6b6b;
+	line-height: 30px;
+}
+
+// Tablet Styles
+@media only screen and (min-width: 480px) {
+	.moreServices {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		padding: 10px 5vw;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	.moreServices__item {
+		width: 30%;
+	}
+
+	.moreServices__itemLogo {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+
+	.moreServices__itemText1 {
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.moreServices__itemText2 {
+		text-align: center;
+	}
+}
+
+// Desktop styles
+@media only screen and (min-width: 992px) {
+	.moreServices {
+		padding: 10px 10vw;
+	}
+}

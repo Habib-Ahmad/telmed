@@ -1,0 +1,48 @@
+// Mobile Styles
+.services {
+	padding: 10px 5vw;
+    margin-top: 40px;
+}
+
+.services__cardWrapper {
+	// height: 100vh;
+}
+
+.services__text1 {
+	text-align: center;
+	font-size: 32px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.services__text2 {
+    text-align: center;
+	font-size: 14px;
+	color: #6b6b6b;
+    line-height: 20px;
+}
+
+// Tablet Styles
+@media only screen and (min-width: 600px) {}
+
+
+// Desktop Styles
+@media only screen and (min-width: 992px) {
+	.services {
+		padding: 10px 10vw 20px 10vw;
+	}
+	.services__cardWrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.services__text2 {
+		display: block;
+		margin: auto;
+        font-size: 16px;
+		max-width: 50%;
+		margin-bottom: 20px;
+        line-height: 25px;
+	}
+}

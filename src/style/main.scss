@@ -1,21 +1,22 @@
 @use './components/app';
+@use './components/comingSoon';
 @use './components/header';
 @use './components/about';
-@use './components/navbar';
-@use './components/askQuestions';
-@use './components/virtualCalls';
-@use './components/symptomChecker';
-@use './components/comingSoon';
+@use './components/vitals';
+@use './components/medications';
+@use './components/card';
+@use './components/services';
+@use './components/diagnosis';
+@use './components/moreServices';
+@use './components/footer';
 
-*{
+* {
 	margin: 0;
 	box-sizing: border-box;
 }
 
 body {
 	font-family: 'Lato', sans-serif;
-	// font-family: 'Ubuntu', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-
 }

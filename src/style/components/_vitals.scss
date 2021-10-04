@@ -1,0 +1,88 @@
+//Moble Styles
+.vitals {
+	height: 100vh;
+	padding: 10px 5vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.vitals__left {
+	margin-bottom: 100px;
+}
+
+.vitals__leftText1 {
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.vitals__leftText2 {
+	font-size: 14px;
+	color: #6b6b6b;
+	line-height: 25px;
+}
+
+.vitals__right {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.vitals__rightImg1 {
+	width: 100px;
+	object-fit: contain;
+}
+
+.vitals__rightImg2 {
+	// width: 300px;
+	display: block;
+	margin: auto;
+	border: 10px solid #dbdbdb;
+	border-radius: 30px;
+	background-clip: padding-box;
+	background-color: #fff;
+}
+
+// Tablet styles
+// @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 480px) {
+	.vitals {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+	}
+
+	.vitals__left {
+		margin-bottom: 0;
+	}
+
+	.vitals__rightImg1 {
+		width: 180px;
+	}
+}
+
+// Desktop styles
+@media only screen and (min-width: 992px) {
+	.vitals {
+		padding: 10px 15vw 20px 15vw;
+		margin-bottom: 100px;
+	}
+
+	.vitals__left {
+		max-width: 40%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: 0;
+	}
+
+	.vitals__leftText1 {
+		font-size: 38px;
+	}
+
+	.vitals__leftText2 {
+		font-size: 16px;
+	}
+}

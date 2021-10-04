@@ -1,0 +1,57 @@
+.diagnosis {
+	background-image: linear-gradient(135deg, #3dac87 20%, #337bee);
+	// position: fixed;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.diagnosis__text {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+.diagnosis__buttonWrapper {
+	display: flex;
+	align-items: center;
+}
+
+.diagnosis__button{
+	width: 150px !important;
+	height: 50px !important;
+	background-color: #1d6baa !important;
+	border: 1px solid #1d6baa !important;
+	border-radius: 30px !important;
+	color: #fff !important;
+	font-weight: bold !important;
+	padding: 0 !important;
+	padding: 10px !important;
+	font-size: 16px !important;
+	text-transform: none !important;
+	&:hover {
+		background-color: #fff !important;
+		color: #1d6baa !important;
+	}
+}
+
+.diagnosis__button2{
+	width: 150px !important;
+	height: 50px !important;
+	background-color: transparent !important;
+	border: 2px solid #c7c7c7 !important;
+	border-radius: 30px !important;
+	color: #fff !important;
+	font-weight: bold !important;
+	padding: 0 !important;
+	padding: 10px !important;
+	font-size: 16px !important;
+	text-transform: none !important;
+	&:hover {
+		color: #c7c7c7 !important;
+	}
+}

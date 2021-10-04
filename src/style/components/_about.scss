@@ -1,4 +1,35 @@
-.about{
-    height: 100vh;
-    background-color: #000;
+.about {
+	height: 100vh;
+	background-color: #161616;
+	padding-top: 70px;
+}
+
+.about__text {
+	text-align: center;
+	color: #fff;
+	font-size: 36px;
+	width: 50%;
+	font-weight: 600;
+	display: block;
+	margin: auto;
+    margin-bottom: 10px;
+}
+
+.about__text2 {
+	text-align: center;
+	color: #93d7ec;
+	font-size: 36px;
+	width: 50%;
+	font-weight: 600;
+	display: block;
+	margin: auto;
+	animation: 200ms about__text2 0s forwards;
+	transform: translateX(20%);
+    text-decoration: underline;
+}
+
+@keyframes about__text2 {
+	to {
+		transform: translateX(0);
+	}
 }
